@@ -1,4 +1,4 @@
-package implementations;
+package utilities;
 
 public class MyArrayList {
 

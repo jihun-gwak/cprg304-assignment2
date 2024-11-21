@@ -8,9 +8,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import implementations.MyArrayList;
-import implementations.MyDLL;
 import utilities.Iterator;
+import utilities.MyArrayList;
+import utilities.MyDLL;
 
 /**
  * @author kitty, maryam
@@ -76,7 +76,7 @@ public class DLLTest
 
 	/**
 	 * Test method for 
-	 * {@link implementations.MyDLL#add(int, java.lang.Object)}
+	 * {@link utilities.MyDLL#add(int, java.lang.Object)}
 	 * to add item to an empty list and return true.
 	 */
 	@Test

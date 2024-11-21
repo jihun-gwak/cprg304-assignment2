@@ -1,5 +1,5 @@
 package implementations;
 
-public class MyStack {
+public class MyDLLNode {
     
 }
