@@ -1,5 +1,6 @@
 package appDomain;
 
+
 import java.util.Iterator;
 
 /**
@@ -76,10 +77,9 @@ public interface QueueADT<E> {
     /**
      * Returns an array containing all of the elements in this queue in proper sequence.
      *
-     * @param copy an array into which the elements of this queue are to be stored
      * @return an array containing the elements of this queue
      */
-    E[] toArray(E[] copy);
+    E[] toArray();
 
     /**  
      * Returns a string representation of this queue. 
