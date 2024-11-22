@@ -34,7 +34,7 @@ public class QueueTest
 	 * Initializes a MyQueue instance and five Integer instances before each test.
 	 * @throws java.lang.Exception
 	 */
-	@Before
+	@Before        
 	public void setUp() throws Exception
 	{
 		queue = new MyQueue<Integer>();

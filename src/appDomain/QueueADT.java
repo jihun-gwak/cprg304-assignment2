@@ -1,7 +1,6 @@
 package appDomain;
 
-
-import java.util.Iterator;
+import utilities.Iterator;
 
 /**
  * QueueADT interface represents a generic queue abstract data type.
