@@ -1,8 +1,7 @@
 package utilities;
 
 import java.util.Arrays;
-import utilities.Iterator;
-import exceptions.IndexOutOfBoundsException;
+import java.util.Iterator;
 import utilities.ListADT;
 
 public class MyArrayList<E> implements ListADT<E> {
