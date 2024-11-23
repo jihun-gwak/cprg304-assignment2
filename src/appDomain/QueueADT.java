@@ -1,7 +1,6 @@
 package appDomain;
 
-
-import java.util.Iterator;
+import utilities.Iterator;
 
 /**
  * QueueADT interface represents a generic queue abstract data type.
@@ -80,6 +79,37 @@ public interface QueueADT<E> {
      * @return an array containing the elements of this queue
      */
     E[] toArray();
+
+    /**
+     * Returns an array containing all of the elements in this queue in proper sequence;
+     * the runtime type of the returned array is that of the specified array.
+     *
+     * @param holder the array into which the elements of this queue are to be stored
+     * @return an array containing the elements of this queue
+     * @throws NullPointerException if the specified array is null
+     */
+    E[] toArray(E[] holder) throws NullPointerException;
+
+    /**
+     * Returns true if this queue contains the specified element.
+     * More formally, returns true if and only if this queue contains
+     * at least one element e such that obj.equals(e).
+     *
+     * @param obj element whose presence in this queue is to be tested
+     * @return true if this queue contains the specified element
+     */
+    boolean contains(Object obj);
+
+    /**
+     * Searches for the specified element in the queue and returns its index.
+     * Returns -1 if the element is not found.
+     *
+     * @param obj element to search for
+     * @return the index of the first occurrence of the element in this queue,
+     *         or -1 if this queue does not contain the element
+     * @throws NullPointerException if the specified element is null
+     */
+    int search(Object obj) throws NullPointerException;
 
     /**  
      * Returns a string representation of this queue. 
